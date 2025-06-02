@@ -26,4 +26,3 @@ func updateCamera(zone):
     current_zone.start()
     if not old_zone == null:
         old_zone.end()
-    

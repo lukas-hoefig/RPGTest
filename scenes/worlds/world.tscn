@@ -6784,34 +6784,28 @@ target_scene = NodePath("../../Map_Zones/RightRegion")
 [node name="Map_Zones" type="Node2D" parent="Map"]
 
 [node name="Spawn" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
-visible = false
 position = Vector2(-244, -118)
 scale = Vector2(0.294713, 0.290833)
 zoom = Vector2(2, 2)
 
 [node name="SpawnRegion" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
-visible = false
 position = Vector2(45, -31)
 scale = Vector2(0.968495, 1.00983)
 
 [node name="BossRegion" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
-visible = false
 position = Vector2(282, -341)
 scale = Vector2(0.722612, 0.772174)
 zoom = Vector2(0.6, 0.6)
 
 [node name="LootRegion" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
-visible = false
 position = Vector2(-9, -279)
-scale = Vector2(-0.37646, 0.36201)
-zoom = Vector2(2, 2)
+scale = Vector2(-0.396218, 0.429135)
+zoom = Vector2(1.5, 1.5)
 
 [node name="RightRegion" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
-visible = false
 position = Vector2(455, 39)
 scale = Vector2(0.77315, 1.4458)
 
 [node name="ForestRegion" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
-visible = false
 position = Vector2(66, 213)
 scale = Vector2(1.02708, 0.434467)
