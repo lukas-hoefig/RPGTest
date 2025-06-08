@@ -6741,47 +6741,45 @@ position = Vector2(-236, -118)
 target_scene = NodePath("../../Map_Zones/SpawnRegion")
 
 [node name="ToBoss" parent="Map/Map_TransformationZones" node_paths=PackedStringArray("source_scene", "target_scene") instance=ExtResource("8_rbjkb")]
-position = Vector2(139, -207)
+position = Vector2(135, -204)
 rotation = -1.5708
-scale = Vector2(0.440993, 1.08987)
 source_scene = NodePath("../../Map_Zones/SpawnRegion")
 target_scene = NodePath("../../Map_Zones/BossRegion")
 
 [node name="ToLoot" parent="Map/Map_TransformationZones" node_paths=PackedStringArray("source_scene", "target_scene") instance=ExtResource("8_rbjkb")]
-position = Vector2(78, -301)
-rotation = 3.14382
-scale = Vector2(0.539711, 0.703565)
+position = Vector2(80, -303)
+rotation = 3.13405
+scale = Vector2(0.994423, 0.999961)
 source_scene = NodePath("../../Map_Zones/BossRegion")
 target_scene = NodePath("../../Map_Zones/LootRegion")
 
 [node name="SecretPathTop" parent="Map/Map_TransformationZones" node_paths=PackedStringArray("source_scene", "target_scene") instance=ExtResource("8_rbjkb")]
 position = Vector2(320, -166)
-scale = Vector2(0.24, 1)
 source_scene = NodePath("../../Map_Zones/SpawnRegion")
 target_scene = NodePath("../../Map_Zones/RightRegion")
 
 [node name="SecretThroughWoods" parent="Map/Map_TransformationZones" node_paths=PackedStringArray("source_scene", "target_scene") instance=ExtResource("8_rbjkb")]
-position = Vector2(299, 59)
-rotation = 0.220261
-scale = Vector2(1.28698, 2.17933)
+position = Vector2(295, 62)
+rotation = 0.286777
+scale = Vector2(1, 1.806)
 source_scene = NodePath("../../Map_Zones/SpawnRegion")
 target_scene = NodePath("../../Map_Zones/RightRegion")
 
 [node name="ToForest" parent="Map/Map_TransformationZones" node_paths=PackedStringArray("source_scene", "target_scene") instance=ExtResource("8_rbjkb")]
 position = Vector2(-143, 143)
-rotation = 1.57684
-scale = Vector2(0.818055, 2.2784)
+rotation = 1.5708
+scale = Vector2(1, 2.123)
 source_scene = NodePath("../../Map_Zones/SpawnRegion")
 target_scene = NodePath("../../Map_Zones/ForestRegion")
 
 [node name="ExitForest" parent="Map/Map_TransformationZones" node_paths=PackedStringArray("source_scene", "target_scene") instance=ExtResource("8_rbjkb")]
-position = Vector2(287, 212)
-rotation = 0.010409
-scale = Vector2(1.12347, 1.62224)
+position = Vector2(287, 216)
+scale = Vector2(1, 1.444)
 source_scene = NodePath("../../Map_Zones/ForestRegion")
 target_scene = NodePath("../../Map_Zones/RightRegion")
 
 [node name="Map_Zones" type="Node2D" parent="Map"]
+visible = false
 
 [node name="Spawn" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
 position = Vector2(-244, -118)
@@ -6798,8 +6796,8 @@ scale = Vector2(0.722612, 0.772174)
 zoom = Vector2(0.6, 0.6)
 
 [node name="LootRegion" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]
-position = Vector2(-9, -279)
-scale = Vector2(-0.396218, 0.429135)
+position = Vector2(-4, -284)
+scale = Vector2(0.349811, 0.425619)
 zoom = Vector2(1.5, 1.5)
 
 [node name="RightRegion" parent="Map/Map_Zones" instance=ExtResource("8_xaid1")]

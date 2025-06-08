@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://d1rw17gmp2rch" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="2_32q6i"]
 
 [node name="CameraManager" type="Node2D"]
+position = Vector2(-1, 1)
 script = ExtResource("1_lneux")
 
 [node name="PlayerCamera" type="Camera2D" parent="."]

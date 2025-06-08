@@ -32,11 +32,13 @@ func unlock_controls():
     current_input_state = input_state.IDLE
 
 func updateAnimation():
-    
-    if velocity.x < 0 : direction = "left"
-    elif velocity.x > 0 : direction = "right"
-    elif velocity.y < 0: direction = "up"
-    elif velocity.y > 0: direction = "down"
+    if velocity.length() > 0:
+        if abs(velocity.x) > abs(velocity.y):
+            if velocity.x < 0 : direction = "left"
+            else: direction = "right"
+        else:
+            if velocity.y < 0 : direction = "up"
+            else: direction = "down"
     
     if velocity.length() > 0:
         animations.play("walk_" + direction)

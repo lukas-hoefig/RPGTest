@@ -8,10 +8,10 @@
 script = ExtResource("1_erg4s")
 
 [node name="TransitionInDirection" parent="." instance=ExtResource("2_47irq")]
-position = Vector2(8, 0)
+position = Vector2(11, 0)
 
 [node name="TransitionAgainstDirection" parent="." instance=ExtResource("2_47irq")]
-position = Vector2(-8, 0)
+position = Vector2(-11, 0)
 rotation = 3.14159
 
 [node name="Marker2D" type="Marker2D" parent="."]
